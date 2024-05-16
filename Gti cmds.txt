@@ -1,0 +1,82 @@
+---What is git..?
+
+
+Features..?
+it is open source it is scalable maximun user can use it.
+it is use to push data on google.
+
+T set UserName In Git
+git config -- global user.name " "
+git config -- global user.email " "
+
+To Check where ,what is set 
+git config -l
+
+To Open VS in git
+code .
+
+To use git 
+git init
+ 
+To check Status
+git status
+
+To Add files 
+git add file name
+ after adding file in git use 
+git commit -m "firstcommit "--thses cmd is use to add file in git
+ 
+To Add all File
+git add -A
+
+to add comment 
+git commit -m " "
+
+If any changes are done in file then for remove these operation/to undo any action happend in file 
+git checkout filename
+
+if any changes are done in file then again add thses file  & again commit
+
+how to track changes & what changes are done 
+git diff
+
+to find chanegs in stage
+git diff --stage
+
+to show who changes are made 
+git log -stat
+
+To remov file 
+git rm file name
+
+to remove from staging area
+git rm --cached services.html
+
+to delete file
+git rm -f filename
+
+	
+to create branches 
+ git branch login
+ 
+to list all branches
+git branch --list
+ 
+to switch branches
+
+git checkout login
+
+To merge branches 
+
+git merge
+
+
+
+----------GitHub----------
+git remote add  origin (git link)
+
+to check origin 
+git remote -v
+ 
+to push data
+git branch -M main 
